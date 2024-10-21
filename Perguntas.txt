@@ -15,5 +15,14 @@ Permite que várias programadores dentro de uma equipa possam trabalhar isoladam
 
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
+As situações de conflito surgem quando o mesmo ficheiro sofreu alterações tanto na diretoria de trabalho como  no stash, ou seja, após iniciar o stash, para além do ficheiro ter sido editado no stash, também foi editado na diretoria de trabalho.
+Este conflito pode ser resolvido das seguintes formas:
+	1 - Fazer um stash das alterações na diretoria de trabalho e depois fazer o stash pop das alterações no stash.
+	2 - Aplicar as alterações do stash numa branch diferente.
+	3 - Abrir o ficheiro num editor de texto, procurar pelas linhas indicadoras do conflito e alterar manualmente de modo a ficar com o conteúdo que pretendermos.
+
+É necessário eliminar manualmente o ficheiro que gerou conflito no stash.
+
+
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
