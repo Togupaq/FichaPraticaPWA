@@ -9,7 +9,10 @@ Pop
 	É usado para aplicar as as alterações de um stash, eliminando a stash após as alterações terem sido concluídas com êxito.
 
 
-2 – Quais sáo as vantagens de usar Branchs num repositório git?
+2 – Quais são as vantagens de usar Branchs num repositório git?
+Permite que várias programadores dentro de uma equipa possam trabalhar isoladamente no desenvolvimento de uma nova funcionalidade ou recurso de forma segura, sem afetar o código ou ficheiros desenvolvidos por outros programadores. Após concluído o trabalho é possível converger uma branch com a principal (master branch).
+
+
 3 – Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em
 que consistem e como podem ser resolvidos esses conflitos?
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
