@@ -26,3 +26,5 @@ Este conflito pode ser resolvido das seguintes formas:
 
 4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as
 diferenças entre eles?
+Ao efetuar o clone de um repositório é possível sincronizá-lo com a origem, conseguindo assim continuar a receber as atualizações e contribuições realizadas por outros programadores.
+No caso do fork, o programador que o fez terá controlo total sobre o repositório criado e este não receberá contribuições de outros programadores.
