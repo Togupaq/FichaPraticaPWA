@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<style>
+			body {
+				font-family: Calibri, Arial, sans-serif;
+				font-size: 11pt;
+			}
+		
+			h1 {
+				color: #000080;
+				font-size: 14pt;
+				font-weight: bold;
+			}
+		
+			p {
+				margin: 0;
+				padding-left: 10px;
+				line-height: 25px;
+				word-wrap: break-word;
+			}
+		
+			ol {
+				margin: 10px;
+				padding-left: 80px;
+			}
+			.tab1 {
+				tab-size: 4;
+			}
+			.tab2 {
+				tab-size: 8;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>
+			Ficha prática para treino de manuseamento de conteúdos em repositórios Github.
+		</h1>
+		
+		<p><b>1 - O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?</b></p>
+
+		<p style=margin-left:30px>Commit</p>
+		<p style=margin-left:50px>O Commit é o estado atual do repositório, é um ponto a partir do qual o Git rastreia todas as alterações que ocorreram a partir deste ponto ou estado. Esta funcionalidade permite voltar atrás, recuperando o estado anterior dos ficheiros.</p>
+		<p>	O Commit é o estado atual do repositório, é um ponto a partir do qual o Git rastreia todas as alterações que ocorreram a partir deste ponto ou estado. Esta funcionalidade permite voltar atrás, recuperando o estado anterior dos ficheiros.</p>
+
+		<p style=margin-left:30px>Push</p>
+		<p style=margin-left:50px>Esta operação permite copiar as alterações de um repositório local para um remoto. É usado para as alterações efetuadas localmente de forma permanente num repositório Git.</p>
+
+		<p style=margin-left:30px>Pop</p>
+		<p style=margin-left:50px>É usado para aplicar as as alterações de um stash, eliminando a stash após as alterações terem sido concluídas com êxito.</p>
+		
+		<br><br>
+		
+		<p><b>2 – Quais são as vantagens de usar Branchs num repositório git?</b></p>
+		<p style=margin-left:30px>Permite que várias programadores dentro de uma equipa possam trabalhar isoladamente no desenvolvimento de uma nova funcionalidade ou recurso de forma segura, sem afetar o código ou ficheiros desenvolvidos por outros programadores. Após concluído o trabalho é possível converger uma branch com a principal (master branch).</p>
+		
+		<br><br>
+		
+		<p><b>3 - Nos Merges de conteúdos resultantes de um “Pop” podem resultar em conflitos. Em que consistem e como podem ser resolvidos esses conflitos?</b></p>
+		<p style=margin-left:30px>As situações de conflito surgem quando o mesmo ficheiro sofreu alterações tanto na diretoria de trabalho como  no stash, ou seja, após iniciar o stash, para além do ficheiro ter sido editado no stash, também foi editado na diretoria de trabalho.</p>
+		<p style=margin-left:30px>Este conflito pode ser resolvido das seguintes formas:</p>
+		<ol>
+        	<li>Fazer um stash das alterações na diretoria de trabalho e depois fazer o stash pop das alterações no stash.</li>
+        	<li>Aplicar as alterações do stash numa branch diferente.</li>
+        	<li>Abrir o ficheiro num editor de texto, procurar pelas linhas indicadoras do conflito e alterar manualmente de modo a ficar com o conteúdo que pretendermos.</li>
+		</ol>
+		<p style=margin-left:30px>É necessário eliminar manualmente o ficheiro que gerou conflito no stash.</p>
+		
+		<br><br>
+		
+		<p><b>4 – “Clone” e “Fork” são formas diferentes de replicar um repositório Git. Quais as diferenças entre eles?</b></p>
+		<p style=margin-left:30px>Ao efetuar o clone de um repositório é possível sincronizá-lo com a origem, conseguindo assim continuar a receber as atualizações e contribuições realizadas por outros programadores.</p>
+		<p style=margin-left:30px>No caso do fork, o programador que o fez terá controlo total sobre o repositório criado e este não receberá contribuições de outros programadores.</p>
+		
+	</body>
+</html>
